@@ -1,5 +1,5 @@
 # licencjat
-Generowanie zredukowanych przestrzeni stanów zachowujących własności wyrażalne w DESL
+Generowanie zredukowanych przestrzeni stanów zachowujących własności wyrażalne w DESL - 1998
 
 KROTKI OPIS PROGRAMU (bez polskich liter - jak widac)
 
