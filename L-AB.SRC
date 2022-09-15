@@ -1,0 +1,49 @@
+function MakeDialogAbout : PDialog;
+var
+  Dlg : PDialog;
+  R : TRect;
+  Control : PView;
+
+begin
+R.Assign(10, 3, 70, 20);
+New(Dlg, Init(R, 'Informacja'));
+Dlg^.Options := Dlg^.Options or ofFramed or ofCenterX or ofCenterY;
+Dlg^.Palette := dpCyanDialog;
+
+R.Assign(4, 4, 56, 6);
+Control := New(PStaticText, Init(R, 'Generowanie zredukowanych przestrzen'+
+     'i stan¢w zachowuj†cych w’asnožci wyra§alne w DESL'));
+Control^.Options := Control^.Options or ofFramed or ofCenterX;
+Dlg^.Insert(Control);
+
+R.Assign(4, 8, 56, 10);
+Control := New(PStaticText, Init(R, 'promotor: prof. Wojciech Penczek'^M+
+     '(C) Zbigniew Nied¦wied¦, Lublin 1997,98'));
+Control^.Options := Control^.Options or ofFramed or ofCenterX;
+Dlg^.Insert(Control);
+
+R.Assign(15, 15, 45, 16);
+Control := New(PStaticText, Init(R, 'Wszystkie prawa zastrze§one.'));
+Control^.Options := Control^.Options or ofCenterX;
+Dlg^.Insert(Control);
+
+R.Assign(14, 11, 46, 15);
+Control := New(PButton, Init(R, 'OK', cmOK, bfDefault));
+Control^.Options := Control^.Options or ofCenterX;
+Dlg^.Insert(Control);
+
+R.Assign(23, 6, 37, 7);
+Control := New(PStaticText, Init(R, Wersja));
+Control^.Options := Control^.Options or ofCenterX;
+Dlg^.Insert(Control);
+
+R.Assign(6, 1, 53, 3);
+Control := New(PStaticText, Init(R, 'Wy§sza Szko’a Rolniczo-Pedagogiczna '+
+     'w Siedlcach'^M+
+     'Praca licencjacka'));
+Control^.Options := Control^.Options or ofCenterX;
+Dlg^.Insert(Control);
+
+Dlg^.SelectNext(False);
+MakeDialogAbout := Dlg;
+end;

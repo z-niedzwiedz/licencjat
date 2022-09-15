@@ -1,0 +1,28 @@
+* Distributed net, by M.Huhn, P.Niebert, F.Wallner 
+* 1 times
+* configuration 0
+A D
+* Process Name[.Instance], Actions, (empty)
+P
+a b c d e
+* Action Name[.Instance], Pre, Post, (empty)
+a
+A C
+B C
+
+b
+B
+A
+
+c
+C
+D
+
+d
+D
+C
+
+e
+B D
+A C
+* end

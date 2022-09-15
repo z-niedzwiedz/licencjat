@@ -1,0 +1,36 @@
+Graf konfiguracji. Sieç:
+Mutex (5 & 6 - critical section) - see Mutex_2
+Krotnoûç proces¢w: 1
+
+Iloûç tranzycji: 36
+
+Iloûç wëzí¢w: 9
+
+   1. Konfiguracja (3): 01 02 07
+      Zdarzenia umoßliwone (4): a d g h
+      òlad (0): []
+   2. Konfiguracja (3): 02 03 07
+      Zdarzenia umoßliwone (3): d g h
+      òlad (1): [a]
+   3. Konfiguracja (3): 02 05 10
+      Zdarzenia umoßliwone (1): c
+      òlad (1): [b]
+   4. Konfiguracja (3): 01 02 07
+      Zdarzenia umoßliwone (3): a g h
+      òlad (1): [c]
+   5. Konfiguracja (3): 01 02 08
+      Zdarzenia umoßliwone (2): a d
+      òlad (1): [g]
+   6. Konfiguracja (3): 01 02 09
+      Zdarzenia umoßliwone (2): a d
+      òlad (1): [h]
+   7. Konfiguracja (3): 01 06 11
+      Zdarzenia umoßliwone (1): f
+      òlad (1): [e]
+   8. Konfiguracja (3): 01 02 07
+      Zdarzenia umoßliwone (3): d g h
+      òlad (1): [f]
+   9. Konfiguracja (3): 01 04 07
+      Zdarzenia umoßliwone (3): a g h
+      òlad (1): [d]
+

@@ -1,0 +1,363 @@
+Graf konfiguracji. Sieç:
+Stacja benzynowa z dwoma dystrybutorami (C) Z.Suraj, B.Komarek "Graf..." s.130
+Krotnoûç proces¢w: 2
+
+Iloûç tranzycji: 1380
+
+Iloûç wëzí¢w: 118
+
+   1. Konfiguracja (6): AutoNaWjezdzie DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.1 PostojDystrybutoraWolny.2
+      Zdarzenia umoßliwone (2): WjazdNaDystrybutor.1 WjazdNaDystrybutor.2
+      òlad (0): []
+   2. Konfiguracja (5): DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.2 TankujaceAuto.1
+      Zdarzenia umoßliwone (2): TankowanieAuta.1 WjazdNaStacjeBenzynowa
+      òlad (1): [WjazdNaDystrybutor.1]
+   3. Konfiguracja (4): AutoZatankowane.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.2
+      Zdarzenia umoßliwone (2): Placenie.1 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.1]
+   4. Konfiguracja (4): AutoObsluzone.1 DystrybutorWolny.2 PostojDystrybutoraWolny.2 Zaplacone.1
+      Zdarzenia umoßliwone (3): WjazdNaStacjeBenzynowa WyjazdZDystrybutora.1 ZwalnianieDystrybutora.1
+      òlad (1): [Placenie.1]
+   5. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.1 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.1 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaDystrybutor.2]
+   6. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.2 PostojDystrybutoraWolny.1 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WyjazdZDystrybutora.1]
+   7. Konfiguracja (5): AutoObsluzone.2 DystrybutorWolny.2 PostojDystrybutoraWolny.1 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): WjazdNaStacjeBenzynowa WyjazdZDystrybutora.2 ZwalnianieDystrybutora.1
+      òlad (1): [OpuszczanieStacji]
+   8. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.2 PostojDystrybutoraWolny.1 PostojDystrybutoraWolny.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WyjazdZDystrybutora.2]
+   9. Konfiguracja (5): DystrybutorWolny.2 PostojDystrybutoraWolny.1 PostojDystrybutoraWolny.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (2): WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [OpuszczanieStacji]
+  10. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.2 PostojDystrybutoraWolny.1 TankujaceAuto.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.2 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WyjazdZDystrybutora.1]
+  11. Konfiguracja (5): DystrybutorWolny.2 PostojDystrybutoraWolny.1 TankujaceAuto.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): TankowanieAuta.2 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [OpuszczanieStacji]
+  12. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.2 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.2 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaDystrybutor.1]
+  13. Konfiguracja (7): AutoNaWjezdzie AutoNaWyjezdzie DystrybutorWolny.2 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji TankowanieAuta.2 ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  14. Konfiguracja (6): AutoNaWyjezdzie AutoZatankowane.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.2 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji Placenie.1 TankowanieAuta.2 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.1]
+  15. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.2 TankujaceAuto.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.2 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [Placenie.1]
+  16. Konfiguracja (6): AutoNaWyjezdzie AutoZatankowane.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji Placenie.1 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.1]
+  17. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.2 PostojDystrybutoraWolny.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [Placenie.1]
+  18. Konfiguracja (7): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.2 null
+      Zdarzenia umoßliwone (2): OpuszczanieStacji WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.1]
+  19. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.1 TankujaceAuto.1 Zaplacone.2 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.1 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [Placenie.2]
+  20. Konfiguracja (7): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji TankowanieAuta.1 WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.2]
+  21. Konfiguracja (6): AutoNaWyjezdzie AutoZatankowane.2 DystrybutorWolny.1 ObslugaStacji TankujaceAuto.1 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji Placenie.2 TankowanieAuta.1 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.2]
+  22. Konfiguracja (6): AutoNaWyjezdzie AutoZatankowane.2 DystrybutorWolny.1 ObslugaStacji PostojDystrybutoraWolny.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji Placenie.2 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.2]
+  23. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.1 PostojDystrybutoraWolny.1 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [Placenie.2]
+  24. Konfiguracja (7): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.1 null
+      Zdarzenia umoßliwone (2): OpuszczanieStacji WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.2]
+  25. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.1 PostojDystrybutoraWolny.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WyjazdZDystrybutora.2]
+  26. Konfiguracja (5): AutoObsluzone.1 DystrybutorWolny.1 PostojDystrybutoraWolny.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): WjazdNaStacjeBenzynowa WyjazdZDystrybutora.1 ZwalnianieDystrybutora.2
+      òlad (1): [OpuszczanieStacji]
+  27. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.1 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.1 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaDystrybutor.1]
+  28. Konfiguracja (5): AutoNaWyjezdzie AutoZatankowane.1 TankujaceAuto.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [TankowanieAuta.1]
+  29. Konfiguracja (7): AutoNaWjezdzie AutoNaWyjezdzie DystrybutorWolny.1 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji TankowanieAuta.1 ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  30. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.1 PostojDystrybutoraWolny.2 TankujaceAuto.1 Zaplacone.2 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.1 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaDystrybutor.1]
+  31. Konfiguracja (5): AutoNaWyjezdzie AutoZatankowane.1 PostojDystrybutoraWolny.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [TankowanieAuta.1]
+  32. Konfiguracja (7): AutoNaWjezdzie AutoNaWyjezdzie DystrybutorWolny.1 PostojDystrybutoraWolny.2 TankujaceAuto.1 Zaplacone.2 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.1 WjazdNaDystrybutor.2 ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  33. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.1 PostojDystrybutoraWolny.1 PostojDystrybutoraWolny.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WyjazdZDystrybutora.1]
+  34. Konfiguracja (5): DystrybutorWolny.1 PostojDystrybutoraWolny.1 PostojDystrybutoraWolny.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (2): WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [OpuszczanieStacji]
+  35. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.1 TankujaceAuto.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaDystrybutor.2]
+  36. Konfiguracja (7): AutoNaWjezdzie AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.1 TankujaceAuto.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (2): OpuszczanieStacji ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  37. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.1 AutoZatankowane.2 DystrybutorWolny.1 ObslugaStacji null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji Placenie.2 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.2]
+  38. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.1 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [Placenie.2]
+  39. Konfiguracja (7): AutoNaWyjezdzie AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji null
+      Zdarzenia umoßliwone (2): OpuszczanieStacji WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.2]
+  40. Konfiguracja (7): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji TankowanieAuta.2 WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.1]
+  41. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.2 PostojDystrybutoraWolny.1 TankujaceAuto.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.2 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaDystrybutor.2]
+  42. Konfiguracja (5): AutoNaWyjezdzie AutoZatankowane.2 PostojDystrybutoraWolny.1 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [TankowanieAuta.2]
+  43. Konfiguracja (7): AutoNaWjezdzie AutoNaWyjezdzie DystrybutorWolny.2 PostojDystrybutoraWolny.1 TankujaceAuto.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.2 WjazdNaDystrybutor.1 ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  44. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.2 AutoZatankowane.1 DystrybutorWolny.2 ObslugaStacji null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji Placenie.1 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.1]
+  45. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [Placenie.1]
+  46. Konfiguracja (7): AutoNaWyjezdzie AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji null
+      Zdarzenia umoßliwone (2): OpuszczanieStacji WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.1]
+  47. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.1 PostojDystrybutoraWolny.1 TankujaceAuto.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaDystrybutor.2]
+  48. Konfiguracja (7): AutoNaWjezdzie AutoNaWyjezdzie DystrybutorWolny.1 PostojDystrybutoraWolny.1 TankujaceAuto.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaDystrybutor.1 ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  49. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.1 PostojDystrybutoraWolny.1 PostojDystrybutoraWolny.2 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WyjazdZDystrybutora.2]
+  50. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.2 PostojDystrybutoraWolny.2 TankujaceAuto.1 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaDystrybutor.1]
+  51. Konfiguracja (7): AutoNaWjezdzie AutoNaWyjezdzie DystrybutorWolny.2 PostojDystrybutoraWolny.2 TankujaceAuto.1 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaDystrybutor.2 ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  52. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.2 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.2 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaDystrybutor.2]
+  53. Konfiguracja (5): AutoNaWyjezdzie AutoZatankowane.2 TankujaceAuto.1 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [TankowanieAuta.2]
+  54. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.2 PostojDystrybutoraWolny.1 PostojDystrybutoraWolny.2 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WyjazdZDystrybutora.1]
+  55. Konfiguracja (6): AutoNaWyjezdzie DystrybutorWolny.1 PostojDystrybutoraWolny.2 TankujaceAuto.1 Zaplacone.2 null
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.1 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WyjazdZDystrybutora.2]
+  56. Konfiguracja (5): DystrybutorWolny.1 PostojDystrybutoraWolny.2 TankujaceAuto.1 Zaplacone.2 null
+      Zdarzenia umoßliwone (3): TankowanieAuta.1 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [OpuszczanieStacji]
+  57. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.2 TankujaceAuto.1 Zaplacone.1 null
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaDystrybutor.1]
+  58. Konfiguracja (7): AutoNaWjezdzie AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.2 TankujaceAuto.1 Zaplacone.1 null
+      Zdarzenia umoßliwone (2): OpuszczanieStacji ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  59. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.2 Zaplacone.1
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [Placenie.1]
+  60. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji
+      Zdarzenia umoßliwone (2): OpuszczanieStacji WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.1]
+  61. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.1 Zaplacone.2
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [Placenie.2]
+  62. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji
+      Zdarzenia umoßliwone (2): OpuszczanieStacji WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.2]
+  63. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.1 TankujaceAuto.2 Zaplacone.2
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaDystrybutor.2]
+  64. Konfiguracja (6): AutoNaWjezdzie AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.1 TankujaceAuto.2 Zaplacone.2
+      Zdarzenia umoßliwone (2): OpuszczanieStacji ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  65. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.1 AutoZatankowane.2 DystrybutorWolny.1 ObslugaStacji
+      Zdarzenia umoßliwone (3): OpuszczanieStacji Placenie.2 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.2]
+  66. Konfiguracja (4): AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.1 Zaplacone.2
+      Zdarzenia umoßliwone (4): WjazdNaStacjeBenzynowa WyjazdZDystrybutora.1 WyjazdZDystrybutora.2 ZwalnianieDystrybutora.2
+      òlad (1): [Placenie.2]
+  67. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.1 PostojDystrybutoraWolny.2 Zaplacone.2
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WyjazdZDystrybutora.2]
+  68. Konfiguracja (5): AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji
+      Zdarzenia umoßliwone (3): WjazdNaStacjeBenzynowa WyjazdZDystrybutora.1 WyjazdZDystrybutora.2
+      òlad (1): [ZwalnianieDystrybutora.2]
+  69. Konfiguracja (5): AutoNaWyjezdzie DystrybutorWolny.2 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.1
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.2 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaDystrybutor.1]
+  70. Konfiguracja (6): AutoNaWjezdzie AutoNaWyjezdzie DystrybutorWolny.2 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.1
+      Zdarzenia umoßliwone (3): OpuszczanieStacji TankowanieAuta.2 ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  71. Konfiguracja (5): AutoNaWyjezdzie AutoZatankowane.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.2
+      Zdarzenia umoßliwone (4): OpuszczanieStacji Placenie.1 TankowanieAuta.2 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.1]
+  72. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.2 TankujaceAuto.2 Zaplacone.1
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.2 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [Placenie.1]
+  73. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.2
+      Zdarzenia umoßliwone (3): OpuszczanieStacji TankowanieAuta.2 WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.1]
+  74. Konfiguracja (5): AutoNaWyjezdzie DystrybutorWolny.2 PostojDystrybutoraWolny.2 TankujaceAuto.1 Zaplacone.1
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaDystrybutor.1]
+  75. Konfiguracja (6): AutoNaWjezdzie AutoNaWyjezdzie DystrybutorWolny.2 PostojDystrybutoraWolny.2 TankujaceAuto.1 Zaplacone.1
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaDystrybutor.2 ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  76. Konfiguracja (5): AutoNaWyjezdzie DystrybutorWolny.2 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.1
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.2 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaDystrybutor.2]
+  77. Konfiguracja (4): AutoNaWyjezdzie AutoZatankowane.2 TankujaceAuto.1 Zaplacone.1
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [TankowanieAuta.2]
+  78. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.1 TankujaceAuto.1 Zaplacone.2
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.1 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [Placenie.2]
+  79. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.1
+      Zdarzenia umoßliwone (3): OpuszczanieStacji TankowanieAuta.1 WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.2]
+  80. Konfiguracja (5): AutoNaWyjezdzie AutoZatankowane.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.2
+      Zdarzenia umoßliwone (3): OpuszczanieStacji Placenie.1 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.1]
+  81. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.2 PostojDystrybutoraWolny.2 Zaplacone.1
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [Placenie.1]
+  82. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.1 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.2
+      Zdarzenia umoßliwone (2): OpuszczanieStacji WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.1]
+  83. Konfiguracja (5): AutoNaWyjezdzie DystrybutorWolny.2 PostojDystrybutoraWolny.1 PostojDystrybutoraWolny.2 Zaplacone.1
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WyjazdZDystrybutora.1]
+  84. Konfiguracja (5): AutoObsluzone.1 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.2
+      Zdarzenia umoßliwone (2): WjazdNaStacjeBenzynowa WyjazdZDystrybutora.1
+      òlad (1): [ZwalnianieDystrybutora.1]
+  85. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.2 TankujaceAuto.1 Zaplacone.1
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaDystrybutor.1]
+  86. Konfiguracja (6): AutoNaWjezdzie AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.2 TankujaceAuto.1 Zaplacone.1
+      Zdarzenia umoßliwone (2): OpuszczanieStacji ZwalnianieDystrybutora.1
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  87. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.2 AutoZatankowane.1 DystrybutorWolny.2 ObslugaStacji
+      Zdarzenia umoßliwone (3): OpuszczanieStacji Placenie.1 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.1]
+  88. Konfiguracja (4): AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.2 Zaplacone.1
+      Zdarzenia umoßliwone (4): WjazdNaStacjeBenzynowa WyjazdZDystrybutora.1 WyjazdZDystrybutora.2 ZwalnianieDystrybutora.1
+      òlad (1): [Placenie.1]
+  89. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.2 PostojDystrybutoraWolny.1 Zaplacone.1
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WyjazdZDystrybutora.1]
+  90. Konfiguracja (5): AutoObsluzone.1 AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji
+      Zdarzenia umoßliwone (3): WjazdNaStacjeBenzynowa WyjazdZDystrybutora.1 WyjazdZDystrybutora.2
+      òlad (1): [ZwalnianieDystrybutora.1]
+  91. Konfiguracja (6): AutoNaWjezdzie DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.2 TankujaceAuto.1
+      Zdarzenia umoßliwone (2): TankowanieAuta.1 WjazdNaDystrybutor.2
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  92. Konfiguracja (5): DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.1 TankujaceAuto.2
+      Zdarzenia umoßliwone (3): TankowanieAuta.1 TankowanieAuta.2 WjazdNaStacjeBenzynowa
+      òlad (1): [WjazdNaDystrybutor.2]
+  93. Konfiguracja (4): AutoZatankowane.2 DystrybutorWolny.1 ObslugaStacji TankujaceAuto.1
+      Zdarzenia umoßliwone (3): Placenie.2 TankowanieAuta.1 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.2]
+  94. Konfiguracja (4): AutoObsluzone.2 DystrybutorWolny.1 TankujaceAuto.1 Zaplacone.2
+      Zdarzenia umoßliwone (4): TankowanieAuta.1 WjazdNaStacjeBenzynowa WyjazdZDystrybutora.2 ZwalnianieDystrybutora.2
+      òlad (1): [Placenie.2]
+  95. Konfiguracja (5): AutoNaWyjezdzie DystrybutorWolny.1 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.2
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.1 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaDystrybutor.2]
+  96. Konfiguracja (6): AutoNaWjezdzie AutoNaWyjezdzie DystrybutorWolny.1 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.2
+      Zdarzenia umoßliwone (3): OpuszczanieStacji TankowanieAuta.1 ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaStacjeBenzynowa]
+  97. Konfiguracja (5): AutoNaWyjezdzie AutoZatankowane.2 DystrybutorWolny.1 ObslugaStacji TankujaceAuto.1
+      Zdarzenia umoßliwone (4): OpuszczanieStacji Placenie.2 TankowanieAuta.1 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.2]
+  98. Konfiguracja (5): AutoNaWyjezdzie DystrybutorWolny.1 PostojDystrybutoraWolny.2 TankujaceAuto.1 Zaplacone.2
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.1 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WyjazdZDystrybutora.2]
+  99. Konfiguracja (5): AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.1
+      Zdarzenia umoßliwone (3): TankowanieAuta.1 WjazdNaStacjeBenzynowa WyjazdZDystrybutora.2
+      òlad (1): [ZwalnianieDystrybutora.2]
+ 100. Konfiguracja (6): AutoNaWjezdzie DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.1 TankujaceAuto.2
+      Zdarzenia umoßliwone (2): TankowanieAuta.1 TankowanieAuta.2
+      òlad (1): [WjazdNaStacjeBenzynowa]
+ 101. Konfiguracja (5): DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.1 TankujaceAuto.2
+      Zdarzenia umoßliwone (2): TankowanieAuta.2 WjazdNaStacjeBenzynowa
+      òlad (1): [WjazdNaDystrybutor.2]
+ 102. Konfiguracja (4): AutoZatankowane.2 DystrybutorWolny.1 ObslugaStacji PostojDystrybutoraWolny.1
+      Zdarzenia umoßliwone (2): Placenie.2 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.2]
+ 103. Konfiguracja (4): AutoObsluzone.2 DystrybutorWolny.1 PostojDystrybutoraWolny.1 Zaplacone.2
+      Zdarzenia umoßliwone (3): WjazdNaStacjeBenzynowa WyjazdZDystrybutora.2 ZwalnianieDystrybutora.2
+      òlad (1): [Placenie.2]
+ 104. Konfiguracja (5): AutoNaWyjezdzie DystrybutorWolny.1 PostojDystrybutoraWolny.1 TankujaceAuto.2 Zaplacone.2
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaDystrybutor.2]
+ 105. Konfiguracja (6): AutoNaWjezdzie AutoNaWyjezdzie DystrybutorWolny.1 PostojDystrybutoraWolny.1 TankujaceAuto.2 Zaplacone.2
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaDystrybutor.1 ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaStacjeBenzynowa]
+ 106. Konfiguracja (5): AutoNaWyjezdzie DystrybutorWolny.1 TankujaceAuto.1 TankujaceAuto.2 Zaplacone.2
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.1 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WjazdNaDystrybutor.1]
+ 107. Konfiguracja (4): AutoNaWyjezdzie AutoZatankowane.1 TankujaceAuto.2 Zaplacone.2
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [TankowanieAuta.1]
+ 108. Konfiguracja (5): AutoNaWyjezdzie AutoZatankowane.2 DystrybutorWolny.1 ObslugaStacji PostojDystrybutoraWolny.1
+      Zdarzenia umoßliwone (3): OpuszczanieStacji Placenie.2 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.2]
+ 109. Konfiguracja (5): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.1 PostojDystrybutoraWolny.1 Zaplacone.2
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [Placenie.2]
+ 110. Konfiguracja (6): AutoNaWyjezdzie AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.1
+      Zdarzenia umoßliwone (2): OpuszczanieStacji WjazdNaStacjeBenzynowa
+      òlad (1): [ZwalnianieDystrybutora.2]
+ 111. Konfiguracja (5): AutoNaWyjezdzie DystrybutorWolny.1 PostojDystrybutoraWolny.1 PostojDystrybutoraWolny.2 Zaplacone.2
+      Zdarzenia umoßliwone (3): OpuszczanieStacji WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.2
+      òlad (1): [WyjazdZDystrybutora.2]
+ 112. Konfiguracja (5): AutoObsluzone.2 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.1
+      Zdarzenia umoßliwone (2): WjazdNaStacjeBenzynowa WyjazdZDystrybutora.2
+      òlad (1): [ZwalnianieDystrybutora.2]
+ 113. Konfiguracja (6): AutoNaWjezdzie DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji PostojDystrybutoraWolny.1 TankujaceAuto.2
+      Zdarzenia umoßliwone (2): TankowanieAuta.2 WjazdNaDystrybutor.1
+      òlad (1): [WjazdNaStacjeBenzynowa]
+ 114. Konfiguracja (5): DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.1 TankujaceAuto.2
+      Zdarzenia umoßliwone (3): TankowanieAuta.1 TankowanieAuta.2 WjazdNaStacjeBenzynowa
+      òlad (1): [WjazdNaDystrybutor.1]
+ 115. Konfiguracja (4): AutoZatankowane.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.2
+      Zdarzenia umoßliwone (3): Placenie.1 TankowanieAuta.2 WjazdNaStacjeBenzynowa
+      òlad (1): [TankowanieAuta.1]
+ 116. Konfiguracja (4): AutoObsluzone.1 DystrybutorWolny.2 TankujaceAuto.2 Zaplacone.1
+      Zdarzenia umoßliwone (4): TankowanieAuta.2 WjazdNaStacjeBenzynowa WyjazdZDystrybutora.1 ZwalnianieDystrybutora.1
+      òlad (1): [Placenie.1]
+ 117. Konfiguracja (5): AutoNaWyjezdzie DystrybutorWolny.2 PostojDystrybutoraWolny.1 TankujaceAuto.2 Zaplacone.1
+      Zdarzenia umoßliwone (4): OpuszczanieStacji TankowanieAuta.2 WjazdNaStacjeBenzynowa ZwalnianieDystrybutora.1
+      òlad (1): [WyjazdZDystrybutora.1]
+ 118. Konfiguracja (5): AutoObsluzone.1 DystrybutorWolny.1 DystrybutorWolny.2 ObslugaStacji TankujaceAuto.2
+      Zdarzenia umoßliwone (3): TankowanieAuta.2 WjazdNaStacjeBenzynowa WyjazdZDystrybutora.1
+      òlad (1): [ZwalnianieDystrybutora.1]
+

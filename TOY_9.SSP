@@ -1,0 +1,129 @@
+Graf konfiguracji. Sieç:
+Toy 8 - Toy 3 with renamed elements
+Krotnoûç proces¢w: 1
+
+Iloûç tranzycji: 40
+
+Iloûç wëzí¢w: 24
+
+   1. Konfiguracja (3): 1 4 7
+      Zdarzenia umoßliwone (3): a d f
+      òlad (0): [t0]
+      Ostatni ûlad pierwotny: [t0]
+
+   2. Konfiguracja (3): 2 4 7
+      Zdarzenia umoßliwone (1): b
+      òlad (1): [a]
+      Ostatni ûlad pierwotny: [a]
+
+   3. Konfiguracja (3): 3 4 7
+      Zdarzenia umoßliwone (2): d f
+      òlad (1): [b]
+      Ostatni ûlad pierwotny: [b]
+
+   4. Konfiguracja (3): 3 5 7
+      Zdarzenia umoßliwone (2): e f
+      òlad (2): [b;d]
+      Ostatni ûlad pierwotny: [b]
+
+   5. Konfiguracja (3): 3 6 7
+      Zdarzenia umoßliwone (1): f
+      òlad (2): [b;e]
+      Ostatni ûlad pierwotny: [b]
+
+   6. Konfiguracja (3): 3 6 8
+      Zdarzenia umoßliwone (1): g
+      òlad (3): [b;e;f]
+      Ostatni ûlad pierwotny: [b]
+
+   7. Konfiguracja (3): 3 6 9
+      Zdarzenia umoßliwone (1): c
+      òlad (3): [b;e;g]
+      Ostatni ûlad pierwotny: [b]
+
+   8. Konfiguracja (3): 1 4 7
+      Zdarzenia umoßliwone (3): a d f
+      òlad (1): [c]
+      Ostatni ûlad pierwotny: [c]
+
+   9. Konfiguracja (3): 1 5 7
+      Zdarzenia umoßliwone (1): e
+      òlad (1): [d]
+      Ostatni ûlad pierwotny: [d]
+
+  10. Konfiguracja (3): 1 6 7
+      Zdarzenia umoßliwone (2): a f
+      òlad (1): [e]
+      Ostatni ûlad pierwotny: [e]
+
+  11. Konfiguracja (3): 2 6 7
+      Zdarzenia umoßliwone (2): b f
+      òlad (2): [a;e]
+      Ostatni ûlad pierwotny: [e]
+
+  12. Konfiguracja (3): 2 6 8
+      Zdarzenia umoßliwone (2): b g
+      òlad (3): [a;e;f]
+      Ostatni ûlad pierwotny: [e]
+
+  13. Konfiguracja (3): 2 6 9
+      Zdarzenia umoßliwone (1): b
+      òlad (3): [a;e;g]
+      Ostatni ûlad pierwotny: [e]
+
+  14. Konfiguracja (3): 1 6 8
+      Zdarzenia umoßliwone (2): a g
+      òlad (2): [e;f]
+      Ostatni ûlad pierwotny: [e]
+
+  15. Konfiguracja (3): 1 6 9
+      Zdarzenia umoßliwone (1): a
+      òlad (2): [e;g]
+      Ostatni ûlad pierwotny: [e]
+
+  16. Konfiguracja (3): 1 4 8
+      Zdarzenia umoßliwone (1): g
+      òlad (1): [f]
+      Ostatni ûlad pierwotny: [f]
+
+  17. Konfiguracja (3): 1 4 9
+      Zdarzenia umoßliwone (2): a d
+      òlad (1): [g]
+      Ostatni ûlad pierwotny: [g]
+
+  18. Konfiguracja (3): 2 4 9
+      Zdarzenia umoßliwone (2): b d
+      òlad (2): [a;g]
+      Ostatni ûlad pierwotny: [g]
+
+  19. Konfiguracja (3): 3 4 9
+      Zdarzenia umoßliwone (1): d
+      òlad (2): [b;g]
+      Ostatni ûlad pierwotny: [g]
+
+  20. Konfiguracja (3): 3 5 9
+      Zdarzenia umoßliwone (1): e
+      òlad (3): [b;d;g]
+      Ostatni ûlad pierwotny: [g]
+
+  21. Konfiguracja (3): 2 5 9
+      Zdarzenia umoßliwone (2): b e
+      òlad (3): [a;d;g]
+      Ostatni ûlad pierwotny: [g]
+
+  22. Konfiguracja (3): 1 5 9
+      Zdarzenia umoßliwone (2): a e
+      òlad (2): [d;g]
+      Ostatni ûlad pierwotny: [g]
+
+  23. Konfiguracja (3): 3 5 8
+      Zdarzenia umoßliwone (2): e g
+      òlad (3): [b;d;f]
+      Ostatni ûlad pierwotny: [b]
+
+  24. Konfiguracja (3): 3 4 8
+      Zdarzenia umoßliwone (2): d g
+      òlad (2): [b;f]
+      Ostatni ûlad pierwotny: [b]
+
+

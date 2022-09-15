@@ -1,0 +1,12 @@
+* Toy 2 - global state space = 2^k states, after reduction k+1 states
+* 3 times
+* configuration 0
+1.1
+* Process Name[.Instance], Actions, (empty)
+P.1
+a.1
+* Action Name[.Instance], Pre, Post, (empty)
+a.1
+1.1
+k+1.1
+* end

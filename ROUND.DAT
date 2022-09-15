@@ -1,0 +1,36 @@
+* Round Based Mutual Exclusion (from Model... J.-M. Courvreur, D. Poitrenaud)
+* 2 times
+* configuration 0
+local.1 quiet.1
+* Process Name[.Instance], Actions, (empty)
+P1
+apply.1 act.1 enter.1 release.1 crosstalk.1 echo.1 return.1
+* Action Name[.Instance], Pre, Post, (empty)
+apply.1
+local.1
+pend.1
+
+act.1
+pend.1 quiet.1
+sent.1 requested.1
+
+enter.1
+granted.1 sent.1
+crit.1 quiet.1
+
+release.1
+crit.1
+terminated.1 local.1
+
+crosstalk.1
+requested.2 sent.1
+crit.1 served.1
+
+echo.1
+quiet.1 requested.2
+granted.2 served.1
+
+return.1
+served.1 terminated.2
+quiet.1
+* end

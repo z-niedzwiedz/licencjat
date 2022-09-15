@@ -1,0 +1,58 @@
+Graf konfiguracji. Sieç:
+Round Based Mutual Exclusion (from Model... J.-M. Courvreur, D. Poitrenaud)
+Iloûç proces¢w: 2
+
+Iloûç wëzí¢w: 17
+
+   1. Konfiguracja (4): local.1 local.2 quiet.1 quiet.2
+      Zdarzenia umoßliwone (2): apply.1 apply.2
+      òlad (0): []
+   2. Konfiguracja (4): local.2 pend.1 quiet.1 quiet.2
+      Zdarzenia umoßliwone (2): act.1 apply.2
+      òlad (1): [apply.1]
+   3. Konfiguracja (4): local.2 quiet.2 requested.1 sent.1
+      Zdarzenia umoßliwone (2): apply.2 echo.2
+      òlad (1): [act.1]
+   4. Konfiguracja (4): crit.1 requested.1 sent.2 served.1
+      Zdarzenia umoßliwone (2): crosstalk.2 release.1
+      òlad (1): [crosstalk.1]
+   5. Konfiguracja (5): local.2 requested.1 sent.1 served.2 terminated.1
+      Zdarzenia umoßliwone (2): apply.2 return.2
+      òlad (1): [act.1]
+   6. Konfiguracja (4): granted.2 local.1 sent.2 served.1
+      Zdarzenia umoßliwone (2): apply.1 enter.2
+      òlad (1): [echo.1]
+   7. Konfiguracja (4): crit.2 local.1 quiet.2 served.1
+      Zdarzenia umoßliwone (2): apply.1 release.2
+      òlad (1): [enter.2]
+   8. Konfiguracja (5): local.1 local.2 quiet.2 served.1 terminated.2
+      Zdarzenia umoßliwone (3): apply.1 apply.2 return.1
+      òlad (1): [release.2]
+   9. Konfiguracja (5): local.1 pend.2 quiet.2 served.1 terminated.2
+      Zdarzenia umoßliwone (3): act.2 apply.1 return.1
+      òlad (1): [apply.2]
+  10. Konfiguracja (5): local.1 requested.2 sent.2 served.1 terminated.2
+      Zdarzenia umoßliwone (2): apply.1 return.1
+      òlad (1): [act.2]
+  11. Konfiguracja (4): crit.1 local.2 quiet.1 served.2
+      Zdarzenia umoßliwone (2): apply.2 release.1
+      òlad (1): [return.1]
+  12. Konfiguracja (5): local.1 requested.1 sent.2 served.1 terminated.1
+      Zdarzenia umoßliwone (2): apply.1 crosstalk.2
+      òlad (1): [release.1]
+  13. Konfiguracja (5): pend.1 requested.1 sent.2 served.1 terminated.1
+      Zdarzenia umoßliwone (1): crosstalk.2
+      òlad (1): [apply.1]
+  14. Konfiguracja (4): crit.2 requested.2 sent.1 served.2
+      Zdarzenia umoßliwone (2): crosstalk.1 release.2
+      òlad (1): [crosstalk.2]
+  15. Konfiguracja (5): local.2 requested.2 sent.1 served.2 terminated.2
+      Zdarzenia umoßliwone (2): apply.2 crosstalk.1
+      òlad (1): [release.2]
+  16. Konfiguracja (5): pend.2 requested.2 sent.1 served.2 terminated.2
+      Zdarzenia umoßliwone (1): crosstalk.1
+      òlad (1): [apply.2]
+  17. Konfiguracja (4): granted.1 local.2 sent.1 served.2
+      Zdarzenia umoßliwone (2): apply.2 enter.1
+      òlad (1): [echo.2]
+

@@ -1,0 +1,49 @@
+Graf konfiguracji. Sieç:
+Toy 2 - global state space = 2^k states, after reduction k+1 states
+Krotnoûç proces¢w: 3
+
+Iloûç tranzycji: 12
+
+Iloûç wëzí¢w: 8
+
+   1. Konfiguracja (3): 1.1 1.2 1.3
+      Zdarzenia umoßliwone (3): a.1 a.2 a.3
+      òlad z konfiguracji 0 (0): [t0]
+      Ostatni ûlad pierwotny: [t0]
+
+   2. Konfiguracja (3): k+1.1 1.2 1.3
+      Zdarzenia umoßliwone (2): a.2 a.3
+      òlad z konfiguracji 1 (1): [a.1]
+      Ostatni ûlad pierwotny: [a.1]
+
+   3. Konfiguracja (3): k+1.1 k+1.2 1.3
+      Zdarzenia umoßliwone (1): a.3
+      òlad z konfiguracji 2 (2): [a.1;a.2]
+      Ostatni ûlad pierwotny: [a.1]
+
+   4. Konfiguracja (3): k+1.1 k+1.2 k+1.3
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 3 (3): [a.1;a.2;a.3]
+      Ostatni ûlad pierwotny: [a.1]
+
+   5. Konfiguracja (3): k+1.1 1.2 k+1.3
+      Zdarzenia umoßliwone (1): a.2
+      òlad z konfiguracji 2 (2): [a.1;a.3]
+      Ostatni ûlad pierwotny: [a.1]
+
+   6. Konfiguracja (3): 1.1 k+1.2 1.3
+      Zdarzenia umoßliwone (2): a.1 a.3
+      òlad z konfiguracji 1 (1): [a.2]
+      Ostatni ûlad pierwotny: [a.2]
+
+   7. Konfiguracja (3): 1.1 k+1.2 k+1.3
+      Zdarzenia umoßliwone (1): a.1
+      òlad z konfiguracji 6 (2): [a.2;a.3]
+      Ostatni ûlad pierwotny: [a.2]
+
+   8. Konfiguracja (3): 1.1 1.2 k+1.3
+      Zdarzenia umoßliwone (2): a.1 a.2
+      òlad z konfiguracji 1 (1): [a.3]
+      Ostatni ûlad pierwotny: [a.3]
+
+

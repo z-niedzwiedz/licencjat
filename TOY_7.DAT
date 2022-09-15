@@ -1,0 +1,20 @@
+* Toy 7 - Toy 5 + sync at middle
+* 8 times
+* configuration 0
+1.1
+* Process Name[.Instance], Actions, (empty)
+P.1
+a.1 b c.1
+* Action Name[.Instance], Pre, Post, (empty)
+a.1
+1.1
+2.1
+
+b
+2.1
+3.1
+
+c.1
+3.1
+k+1.1
+* end

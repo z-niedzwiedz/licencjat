@@ -1,0 +1,24 @@
+Graf konfiguracji. Sieç:
+Distributed net, by M.Huhn, P.Niebert, F.Wallner 
+Krotnoûç proces¢w: 1
+
+Iloûç tranzycji: 3
+
+Iloûç wëzí¢w: 3
+
+   1. Konfiguracja (2): A D
+      Zdarzenia umoßliwone (1): d
+      òlad z konfiguracji 0 (0): [t0]
+      Ostatni ûlad pierwotny: [t0]
+
+   2. Konfiguracja (2): A C
+      Zdarzenia umoßliwone (1): c
+      òlad z konfiguracji 1 (1): [d]
+      Ostatni ûlad pierwotny: [d]
+
+   3. Konfiguracja (2): A D
+      Zdarzenia umoßliwone (1): d
+      òlad z konfiguracji 2 (1): [c]
+      Ostatni ûlad pierwotny: [c]
+
+

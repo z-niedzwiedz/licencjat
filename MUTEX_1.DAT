@@ -1,0 +1,46 @@
+* Mutex (5 & 6 - critical section) - see Mutex_2
+* 1 times
+* configuration 0
+01 02 07
+* Process Name[.Instance], Actions, (empty)
+P1
+a b c
+
+P2
+d e f
+
+P0
+g h b e c f
+* Action Name[.Instance], Pre, Post, (empty)
+a
+01
+03
+
+b
+03 08
+05 10
+
+c
+05 10
+01 07
+
+d
+02
+04
+
+e
+09 04
+11 06
+
+f
+11 06
+02 07
+
+g
+07
+08
+
+h
+07
+09
+* end

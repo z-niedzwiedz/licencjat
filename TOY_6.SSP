@@ -1,0 +1,134 @@
+Graf konfiguracji. Sieç:
+Toy 6 - Toy 5 + sync. at end
+Krotnoûç proces¢w: 8
+
+Iloûç tranzycji: 24
+
+Iloûç wëzí¢w: 25
+
+   1. Konfiguracja (8): 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8
+      Zdarzenia umoßliwone (8): a.1 a.2 a.3 a.4 a.5 a.6 a.7 a.8
+      òlad z konfiguracji 0 (0): [t0]
+      Ostatni ûlad pierwotny: [t0]
+
+   2. Konfiguracja (8): 2.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8
+      Zdarzenia umoßliwone (1): b.1
+      òlad z konfiguracji 1 (1): [a.1]
+      Ostatni ûlad pierwotny: [a.1]
+
+   3. Konfiguracja (8): 3.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8
+      Zdarzenia umoßliwone (1): c.1
+      òlad z konfiguracji 2 (1): [b.1]
+      Ostatni ûlad pierwotny: [b.1]
+
+   4. Konfiguracja (8): 1.2 1.3 1.4 1.5 1.6 1.7 1.8 k+1
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 3 (1): [c.1]
+      Ostatni ûlad pierwotny: [c.1]
+
+   5. Konfiguracja (8): 1.1 2.2 1.3 1.4 1.5 1.6 1.7 1.8
+      Zdarzenia umoßliwone (1): b.2
+      òlad z konfiguracji 1 (1): [a.2]
+      Ostatni ûlad pierwotny: [a.2]
+
+   6. Konfiguracja (8): 1.1 3.2 1.3 1.4 1.5 1.6 1.7 1.8
+      Zdarzenia umoßliwone (1): c.2
+      òlad z konfiguracji 5 (1): [b.2]
+      Ostatni ûlad pierwotny: [b.2]
+
+   7. Konfiguracja (8): 1.1 1.3 1.4 1.5 1.6 1.7 1.8 k+1
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 6 (1): [c.2]
+      Ostatni ûlad pierwotny: [c.2]
+
+   8. Konfiguracja (8): 1.1 1.2 2.3 1.4 1.5 1.6 1.7 1.8
+      Zdarzenia umoßliwone (1): b.3
+      òlad z konfiguracji 1 (1): [a.3]
+      Ostatni ûlad pierwotny: [a.3]
+
+   9. Konfiguracja (8): 1.1 1.2 3.3 1.4 1.5 1.6 1.7 1.8
+      Zdarzenia umoßliwone (1): c.3
+      òlad z konfiguracji 8 (1): [b.3]
+      Ostatni ûlad pierwotny: [b.3]
+
+  10. Konfiguracja (8): 1.1 1.2 1.4 1.5 1.6 1.7 1.8 k+1
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 9 (1): [c.3]
+      Ostatni ûlad pierwotny: [c.3]
+
+  11. Konfiguracja (8): 1.1 1.2 1.3 2.4 1.5 1.6 1.7 1.8
+      Zdarzenia umoßliwone (1): b.4
+      òlad z konfiguracji 1 (1): [a.4]
+      Ostatni ûlad pierwotny: [a.4]
+
+  12. Konfiguracja (8): 1.1 1.2 1.3 3.4 1.5 1.6 1.7 1.8
+      Zdarzenia umoßliwone (1): c.4
+      òlad z konfiguracji 11 (1): [b.4]
+      Ostatni ûlad pierwotny: [b.4]
+
+  13. Konfiguracja (8): 1.1 1.2 1.3 1.5 1.6 1.7 1.8 k+1
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 12 (1): [c.4]
+      Ostatni ûlad pierwotny: [c.4]
+
+  14. Konfiguracja (8): 1.1 1.2 1.3 1.4 2.5 1.6 1.7 1.8
+      Zdarzenia umoßliwone (1): b.5
+      òlad z konfiguracji 1 (1): [a.5]
+      Ostatni ûlad pierwotny: [a.5]
+
+  15. Konfiguracja (8): 1.1 1.2 1.3 1.4 3.5 1.6 1.7 1.8
+      Zdarzenia umoßliwone (1): c.5
+      òlad z konfiguracji 14 (1): [b.5]
+      Ostatni ûlad pierwotny: [b.5]
+
+  16. Konfiguracja (8): 1.1 1.2 1.3 1.4 1.6 1.7 1.8 k+1
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 15 (1): [c.5]
+      Ostatni ûlad pierwotny: [c.5]
+
+  17. Konfiguracja (8): 1.1 1.2 1.3 1.4 1.5 2.6 1.7 1.8
+      Zdarzenia umoßliwone (1): b.6
+      òlad z konfiguracji 1 (1): [a.6]
+      Ostatni ûlad pierwotny: [a.6]
+
+  18. Konfiguracja (8): 1.1 1.2 1.3 1.4 1.5 3.6 1.7 1.8
+      Zdarzenia umoßliwone (1): c.6
+      òlad z konfiguracji 17 (1): [b.6]
+      Ostatni ûlad pierwotny: [b.6]
+
+  19. Konfiguracja (8): 1.1 1.2 1.3 1.4 1.5 1.7 1.8 k+1
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 18 (1): [c.6]
+      Ostatni ûlad pierwotny: [c.6]
+
+  20. Konfiguracja (8): 1.1 1.2 1.3 1.4 1.5 1.6 2.7 1.8
+      Zdarzenia umoßliwone (1): b.7
+      òlad z konfiguracji 1 (1): [a.7]
+      Ostatni ûlad pierwotny: [a.7]
+
+  21. Konfiguracja (8): 1.1 1.2 1.3 1.4 1.5 1.6 3.7 1.8
+      Zdarzenia umoßliwone (1): c.7
+      òlad z konfiguracji 20 (1): [b.7]
+      Ostatni ûlad pierwotny: [b.7]
+
+  22. Konfiguracja (8): 1.1 1.2 1.3 1.4 1.5 1.6 1.8 k+1
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 21 (1): [c.7]
+      Ostatni ûlad pierwotny: [c.7]
+
+  23. Konfiguracja (8): 1.1 1.2 1.3 1.4 1.5 1.6 1.7 2.8
+      Zdarzenia umoßliwone (1): b.8
+      òlad z konfiguracji 1 (1): [a.8]
+      Ostatni ûlad pierwotny: [a.8]
+
+  24. Konfiguracja (8): 1.1 1.2 1.3 1.4 1.5 1.6 1.7 3.8
+      Zdarzenia umoßliwone (1): c.8
+      òlad z konfiguracji 23 (1): [b.8]
+      Ostatni ûlad pierwotny: [b.8]
+
+  25. Konfiguracja (8): 1.1 1.2 1.3 1.4 1.5 1.6 1.7 k+1
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 24 (1): [c.8]
+      Ostatni ûlad pierwotny: [c.8]
+
+

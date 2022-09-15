@@ -1,0 +1,54 @@
+Graf konfiguracji. Sieç:
+Mutex (5 & 6 - critical section) - see Mutex_2
+Krotnoûç proces¢w: 1
+
+Iloûç tranzycji: 33
+
+Iloûç wëzí¢w: 9
+
+   1. Konfiguracja (3): 1 2 7
+      Zdarzenia umoßliwone (4): a d g h
+      òlad z konfiguracji 0 (0): [t0]
+      Ostatni ûlad pierwotny: [t0]
+
+   2. Konfiguracja (3): 2 3 7
+      Zdarzenia umoßliwone (3): d g h
+      òlad z konfiguracji 1 (1): [a]
+      Ostatni ûlad pierwotny: [a]
+
+   3. Konfiguracja (3): 10 2 5
+      Zdarzenia umoßliwone (1): c
+      òlad z konfiguracji 10 (1): [b]
+      Ostatni ûlad pierwotny: [b]
+
+   4. Konfiguracja (3): 1 2 7
+      Zdarzenia umoßliwone (3): a g h
+      òlad z konfiguracji 11 (1): [c]
+      Ostatni ûlad pierwotny: [c]
+
+   5. Konfiguracja (3): 1 2 8
+      Zdarzenia umoßliwone (1): a
+      òlad z konfiguracji 12 (1): [g]
+      Ostatni ûlad pierwotny: [g]
+
+   6. Konfiguracja (3): 1 2 9
+      Zdarzenia umoßliwone (1): d
+      òlad z konfiguracji 12 (1): [h]
+      Ostatni ûlad pierwotny: [h]
+
+   7. Konfiguracja (3): 1 11 6
+      Zdarzenia umoßliwone (1): f
+      òlad z konfiguracji 15 (1): [e]
+      Ostatni ûlad pierwotny: [e]
+
+   8. Konfiguracja (3): 1 2 7
+      Zdarzenia umoßliwone (3): d g h
+      òlad z konfiguracji 16 (1): [f]
+      Ostatni ûlad pierwotny: [f]
+
+   9. Konfiguracja (3): 1 4 7
+      Zdarzenia umoßliwone (2): g h
+      òlad z konfiguracji 17 (1): [d]
+      Ostatni ûlad pierwotny: [d]
+
+

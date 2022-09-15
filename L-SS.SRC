@@ -1,0 +1,57 @@
+var
+  DataRecSS : record
+    Time : LongInt;
+    On : Word;
+    Typ : Word;
+  end;
+
+function MakeDialogSS : PDialog;
+var
+  Dlg : PDialog;
+  R : TRect;
+  Control : PView;
+
+begin
+R.Assign(20, 5, 59, 17);
+New(Dlg, Init(R, 'Wygaszacz ekranu'));
+Dlg^.Options := Dlg^.Options or ofCenterX or ofCenterY;
+Dlg^.Palette := dpCyanDialog;
+
+R.Assign(3, 3, 9, 4);
+Control := New(PInputLong, Init(R, 4, 0, 3600, 0));
+Dlg^.Insert(Control);
+
+  R.Assign(2, 2, 12, 3);
+  Dlg^.Insert(New(PLabel, Init(R, 'Ile minut', Control)));
+
+R.Assign(3, 7, 17, 8);
+Control := New(PCheckboxes, Init(R, 
+  NewSItem('W’†czony', Nil)));
+Dlg^.Insert(Control);
+
+  R.Assign(2, 6, 12, 7);
+  Dlg^.Insert(New(PLabel, Init(R, 'W’†czenie', Control)));
+
+R.Assign(19, 3, 36, 8);
+Control := New(PRadioButtons, Init(R, 
+  NewSItem('Komunikat',
+  NewSItem('Ruch gwiazd',
+  NewSItem('Standard',
+  NewSItem('Niebo',
+  NewSItem('Robak', Nil)))))));
+Dlg^.Insert(Control);
+
+  R.Assign(18, 2, 33, 3);
+  Dlg^.Insert(New(PLabel, Init(R, 'Typ wygaszacza', Control)));
+
+R.Assign(7, 9, 17, 11);
+Control := New(PButton, Init(R, 'OK', cmOK, bfDefault));
+Dlg^.Insert(Control);
+
+R.Assign(21, 9, 31, 11);
+Control := New(PButton, Init(R, 'Anulu~j~', cmCancel, bfNormal));
+Dlg^.Insert(Control);
+
+Dlg^.SelectNext(False);
+MakeDialogSS := Dlg;
+end;

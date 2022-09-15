@@ -1,0 +1,39 @@
+* Stacja benzynowa z dwoma dystrybutorami (C) Z.Suraj, B.Komarek "Graf..." s.130
+* 3 times
+* configuration 0
+AutoNaWjezdzie PostojDystrybutoraWolny.1 DystrybutorWolny.1 ObslugaStacji
+* Process Name[.Instance], Actions, (empty)
+Auto.1
+WjazdNaStacjeBenzynowa WjazdNaDystrybutor.1 TankowanieAuta.1 Placenie.1 WyjazdZDystrybutora.1 OpuszczanieStacji
+
+Dystrybutor.1
+TankowanieAuta.1 Placenie.1 ZwalnianieDystrybutora.1
+* Action Name[.Instance], Pre, Post, (empty)
+WjazdNaStacjeBenzynowa
+gen()
+AutoNaWjezdzie
+
+WjazdNaDystrybutor.1
+AutoNaWjezdzie PostojDystrybutoraWolny.1
+TankujaceAuto.1
+
+TankowanieAuta.1
+TankujaceAuto.1 DystrybutorWolny.1
+AutoZatankowane.1
+
+Placenie.1
+AutoZatankowane.1 ObslugaStacji
+Zaplacone.1 AutoObsluzone.1
+
+WyjazdZDystrybutora.1
+AutoObsluzone.1
+PostojDystrybutoraWolny.1 AutoNaWyjezdzie
+
+ZwalnianieDystrybutora.1
+Zaplacone.1
+DystrybutorWolny.1 ObslugaStacji
+
+OpuszczanieStacji
+AutoNaWyjezdzie
+null
+* end

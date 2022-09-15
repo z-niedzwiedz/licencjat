@@ -1,0 +1,75 @@
+Graf konfiguracji. Sieç:
+Toy 4 
+Krotnoûç proces¢w: 5
+
+Iloûç tranzycji: 7406
+
+Iloûç wëzí¢w: 22
+
+   1. Konfiguracja (5): 1.1 1.2 1.3 1.4 1.5
+      Zdarzenia umoßliwone (5): a.1 a.2 a.3 a.4 a.5
+      òlad (0): []
+   2. Konfiguracja (5): 1.2 1.3 1.4 1.5 2.1
+      Zdarzenia umoßliwone (1): b.1
+      òlad (1): [a.1]
+   3. Konfiguracja (5): 1.2 1.3 1.4 1.5 3.1
+      Zdarzenia umoßliwone (1): c.1
+      òlad (1): [b.1]
+   4. Konfiguracja (5): 1.2 1.3 1.4 1.5 k+1.1
+      Zdarzenia umoßliwone (1): ak+1.1
+      òlad (1): [c.1]
+   5. Konfiguracja (5): 1.2 1.3 1.4 1.5 2k+1.1
+      Zdarzenia umoßliwone (4): a.2 a.3 a.4 a.5
+      òlad (1): [ak+1.1]
+   6. Konfiguracja (5): 1.1 1.2 1.3 1.4 1.5
+      Zdarzenia umoßliwone (5): a.1 a.2 a.3 a.4 a.5
+      òlad (1): [a2k+1]
+   7. Konfiguracja (5): 1.1 1.3 1.4 1.5 2.2
+      Zdarzenia umoßliwone (1): b.2
+      òlad (1): [a.2]
+   8. Konfiguracja (5): 1.1 1.3 1.4 1.5 3.2
+      Zdarzenia umoßliwone (1): c.2
+      òlad (1): [b.2]
+   9. Konfiguracja (5): 1.1 1.3 1.4 1.5 k+1.2
+      Zdarzenia umoßliwone (1): ak+1.2
+      òlad (1): [c.2]
+  10. Konfiguracja (5): 1.1 1.3 1.4 1.5 2k+1.2
+      Zdarzenia umoßliwone (4): a.1 a.3 a.4 a.5
+      òlad (1): [ak+1.2]
+  11. Konfiguracja (5): 1.1 1.2 1.4 1.5 2.3
+      Zdarzenia umoßliwone (1): b.3
+      òlad (1): [a.3]
+  12. Konfiguracja (5): 1.1 1.2 1.4 1.5 3.3
+      Zdarzenia umoßliwone (1): c.3
+      òlad (1): [b.3]
+  13. Konfiguracja (5): 1.1 1.2 1.4 1.5 k+1.3
+      Zdarzenia umoßliwone (1): ak+1.3
+      òlad (1): [c.3]
+  14. Konfiguracja (5): 1.1 1.2 1.4 1.5 2k+1.3
+      Zdarzenia umoßliwone (4): a.1 a.2 a.4 a.5
+      òlad (1): [ak+1.3]
+  15. Konfiguracja (5): 1.1 1.2 1.3 1.5 2.4
+      Zdarzenia umoßliwone (1): b.4
+      òlad (1): [a.4]
+  16. Konfiguracja (5): 1.1 1.2 1.3 1.5 3.4
+      Zdarzenia umoßliwone (1): c.4
+      òlad (1): [b.4]
+  17. Konfiguracja (5): 1.1 1.2 1.3 1.5 k+1.4
+      Zdarzenia umoßliwone (1): ak+1.4
+      òlad (1): [c.4]
+  18. Konfiguracja (5): 1.1 1.2 1.3 1.5 2k+1.4
+      Zdarzenia umoßliwone (4): a.1 a.2 a.3 a.5
+      òlad (1): [ak+1.4]
+  19. Konfiguracja (5): 1.1 1.2 1.3 1.4 2.5
+      Zdarzenia umoßliwone (1): b.5
+      òlad (1): [a.5]
+  20. Konfiguracja (5): 1.1 1.2 1.3 1.4 3.5
+      Zdarzenia umoßliwone (1): c.5
+      òlad (1): [b.5]
+  21. Konfiguracja (5): 1.1 1.2 1.3 1.4 k+1.5
+      Zdarzenia umoßliwone (1): ak+1.5
+      òlad (1): [c.5]
+  22. Konfiguracja (5): 1.1 1.2 1.3 1.4 2k+1.5
+      Zdarzenia umoßliwone (4): a.1 a.2 a.3 a.4
+      òlad (1): [ak+1.5]
+

@@ -1,0 +1,64 @@
+Graf konfiguracji. Sieç:
+Toy 7 - Toy 5 + sync at middle
+Krotnoûç proces¢w: 3
+
+Iloûç tranzycji: 12
+
+Iloûç wëzí¢w: 11
+
+   1. Konfiguracja (3): 1.1 1.2 1.3
+      Zdarzenia umoßliwone (3): a.1 a.2 a.3
+      òlad z konfiguracji 0 (0): [t0]
+      Ostatni ûlad pierwotny: [t0]
+
+   2. Konfiguracja (3): 2.1 1.2 1.3
+      Zdarzenia umoßliwone (1): a.2
+      òlad z konfiguracji 1 (1): [a.1]
+      Ostatni ûlad pierwotny: [a.1]
+
+   3. Konfiguracja (3): 2.1 2.2 1.3
+      Zdarzenia umoßliwone (1): a.3
+      òlad z konfiguracji 2 (2): [a.1;a.2]
+      Ostatni ûlad pierwotny: [a.1]
+
+   4. Konfiguracja (3): 2.1 2.2 2.3
+      Zdarzenia umoßliwone (1): b
+      òlad z konfiguracji 3 (3): [a.1;a.2;a.3]
+      Ostatni ûlad pierwotny: [a.1]
+
+   5. Konfiguracja (3): 3.1 3.2 3.3
+      Zdarzenia umoßliwone (3): c.1 c.2 c.3
+      òlad z konfiguracji 4 (1): [b]
+      Ostatni ûlad pierwotny: [b]
+
+   6. Konfiguracja (3): k+1.1 3.2 3.3
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 5 (1): [c.1]
+      Ostatni ûlad pierwotny: [c.1]
+
+   7. Konfiguracja (3): 3.1 k+1.2 3.3
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 5 (1): [c.2]
+      Ostatni ûlad pierwotny: [c.2]
+
+   8. Konfiguracja (3): 3.1 3.2 k+1.3
+      Zdarzenia umoßliwone (0):
+      òlad z konfiguracji 5 (1): [c.3]
+      Ostatni ûlad pierwotny: [c.3]
+
+   9. Konfiguracja (3): 1.1 2.2 1.3
+      Zdarzenia umoßliwone (1): a.1
+      òlad z konfiguracji 1 (1): [a.2]
+      Ostatni ûlad pierwotny: [a.2]
+
+  10. Konfiguracja (3): 1.1 1.2 2.3
+      Zdarzenia umoßliwone (1): a.1
+      òlad z konfiguracji 1 (1): [a.3]
+      Ostatni ûlad pierwotny: [a.3]
+
+  11. Konfiguracja (3): 2.1 1.2 2.3
+      Zdarzenia umoßliwone (1): a.2
+      òlad z konfiguracji 10 (2): [a.1;a.3]
+      Ostatni ûlad pierwotny: [a.3]
+
+

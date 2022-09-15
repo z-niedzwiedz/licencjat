@@ -1,0 +1,74 @@
+Graf konfiguracji. Sieç:
+Net 01
+Krotnoûç proces¢w: 1
+
+Iloûç tranzycji: 32
+
+Iloûç wëzí¢w: 13
+
+   1. Konfiguracja (3): 1 4 7
+      Zdarzenia umoßliwone (2): a d
+      òlad z konfiguracji 0 (0): [t0]
+      Ostatni ûlad pierwotny: [t0]
+
+   2. Konfiguracja (2): 2 4
+      Zdarzenia umoßliwone (1): b
+      òlad z konfiguracji 1 (1): [a]
+      Ostatni ûlad pierwotny: [a]
+
+   3. Konfiguracja (3): 3 4 7
+      Zdarzenia umoßliwone (2): c d
+      òlad z konfiguracji 2 (1): [b]
+      Ostatni ûlad pierwotny: [b]
+
+   4. Konfiguracja (3): 1 4 7
+      Zdarzenia umoßliwone (2): a d
+      òlad z konfiguracji 3 (1): [c]
+      Ostatni ûlad pierwotny: [c]
+
+   5. Konfiguracja (2): 2 6
+      Zdarzenia umoßliwone (2): b f
+      òlad z konfiguracji 6 (1): [a]
+      Ostatni ûlad pierwotny: [a]
+
+   6. Konfiguracja (3): 3 6 7
+      Zdarzenia umoßliwone (2): c f
+      òlad z konfiguracji 7 (1): [b]
+      Ostatni ûlad pierwotny: [b]
+
+   7. Konfiguracja (3): 1 6 7
+      Zdarzenia umoßliwone (2): a f
+      òlad z konfiguracji 8 (1): [c]
+      Ostatni ûlad pierwotny: [c]
+
+   8. Konfiguracja (2): 3 5
+      Zdarzenia umoßliwone (2): c e
+      òlad z konfiguracji 12 (1): [d]
+      Ostatni ûlad pierwotny: [d]
+
+   9. Konfiguracja (3): 3 6 7
+      Zdarzenia umoßliwone (2): c f
+      òlad z konfiguracji 13 (1): [e]
+      Ostatni ûlad pierwotny: [e]
+
+  10. Konfiguracja (3): 3 4 7
+      Zdarzenia umoßliwone (2): c d
+      òlad z konfiguracji 14 (1): [f]
+      Ostatni ûlad pierwotny: [f]
+
+  11. Konfiguracja (2): 1 5
+      Zdarzenia umoßliwone (1): e
+      òlad z konfiguracji 1 (1): [d]
+      Ostatni ûlad pierwotny: [d]
+
+  12. Konfiguracja (3): 1 6 7
+      Zdarzenia umoßliwone (2): a f
+      òlad z konfiguracji 16 (1): [e]
+      Ostatni ûlad pierwotny: [e]
+
+  13. Konfiguracja (3): 1 4 7
+      Zdarzenia umoßliwone (2): a d
+      òlad z konfiguracji 17 (1): [f]
+      Ostatni ûlad pierwotny: [f]
+
+
