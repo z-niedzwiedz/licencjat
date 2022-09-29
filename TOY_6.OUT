@@ -1,0 +1,198 @@
+Sieç:
+Toy 6 - Toy 5 + sync. at end
+
+Krotnoûç proces¢w: 8
+
+Konfiguracja poczÜtkowa (8):
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+1.8
+
+Zdarzenia (24):
+
+  1. Zdarzenie: a.1
+     Prekondycja  (1): 1.1 
+     Postkondycja (1): 2.1 
+
+  2. Zdarzenie: b.1
+     Prekondycja  (1): 2.1 
+     Postkondycja (1): 3.1 
+
+  3. Zdarzenie: c.1
+     Prekondycja  (1): 3.1 
+     Postkondycja (1): k+1 
+
+  4. Zdarzenie: a.2
+     Prekondycja  (1): 1.2 
+     Postkondycja (1): 2.2 
+
+  5. Zdarzenie: b.2
+     Prekondycja  (1): 2.2 
+     Postkondycja (1): 3.2 
+
+  6. Zdarzenie: c.2
+     Prekondycja  (1): 3.2 
+     Postkondycja (1): k+1 
+
+  7. Zdarzenie: a.3
+     Prekondycja  (1): 1.3 
+     Postkondycja (1): 2.3 
+
+  8. Zdarzenie: b.3
+     Prekondycja  (1): 2.3 
+     Postkondycja (1): 3.3 
+
+  9. Zdarzenie: c.3
+     Prekondycja  (1): 3.3 
+     Postkondycja (1): k+1 
+
+ 10. Zdarzenie: a.4
+     Prekondycja  (1): 1.4 
+     Postkondycja (1): 2.4 
+
+ 11. Zdarzenie: b.4
+     Prekondycja  (1): 2.4 
+     Postkondycja (1): 3.4 
+
+ 12. Zdarzenie: c.4
+     Prekondycja  (1): 3.4 
+     Postkondycja (1): k+1 
+
+ 13. Zdarzenie: a.5
+     Prekondycja  (1): 1.5 
+     Postkondycja (1): 2.5 
+
+ 14. Zdarzenie: b.5
+     Prekondycja  (1): 2.5 
+     Postkondycja (1): 3.5 
+
+ 15. Zdarzenie: c.5
+     Prekondycja  (1): 3.5 
+     Postkondycja (1): k+1 
+
+ 16. Zdarzenie: a.6
+     Prekondycja  (1): 1.6 
+     Postkondycja (1): 2.6 
+
+ 17. Zdarzenie: b.6
+     Prekondycja  (1): 2.6 
+     Postkondycja (1): 3.6 
+
+ 18. Zdarzenie: c.6
+     Prekondycja  (1): 3.6 
+     Postkondycja (1): k+1 
+
+ 19. Zdarzenie: a.7
+     Prekondycja  (1): 1.7 
+     Postkondycja (1): 2.7 
+
+ 20. Zdarzenie: b.7
+     Prekondycja  (1): 2.7 
+     Postkondycja (1): 3.7 
+
+ 21. Zdarzenie: c.7
+     Prekondycja  (1): 3.7 
+     Postkondycja (1): k+1 
+
+ 22. Zdarzenie: a.8
+     Prekondycja  (1): 1.8 
+     Postkondycja (1): 2.8 
+
+ 23. Zdarzenie: b.8
+     Prekondycja  (1): 2.8 
+     Postkondycja (1): 3.8 
+
+ 24. Zdarzenie: c.8
+     Prekondycja  (1): 3.8 
+     Postkondycja (1): k+1 
+
+Procesy (8):
+
+  1. Proces: P.1
+     Akcje (3): a.1 b.1 c.1 
+
+  2. Proces: P.2
+     Akcje (3): a.2 b.2 c.2 
+
+  3. Proces: P.3
+     Akcje (3): a.3 b.3 c.3 
+
+  4. Proces: P.4
+     Akcje (3): a.4 b.4 c.4 
+
+  5. Proces: P.5
+     Akcje (3): a.5 b.5 c.5 
+
+  6. Proces: P.6
+     Akcje (3): a.6 b.6 c.6 
+
+  7. Proces: P.7
+     Akcje (3): a.7 b.7 c.7 
+
+  8. Proces: P.8
+     Akcje (3): a.8 b.8 c.8 
+
+Síownik (57):
+  0 - 1.1
+  1 - 2.1
+  2 - 3.1
+  3 - P.1
+  4 - a.1
+  5 - b.1
+  6 - c.1
+  7 - 1.2
+  8 - 2.2
+  9 - 3.2
+ 10 - P.2
+ 11 - a.2
+ 12 - b.2
+ 13 - c.2
+ 14 - 1.3
+ 15 - 2.3
+ 16 - 3.3
+ 17 - P.3
+ 18 - a.3
+ 19 - b.3
+ 20 - c.3
+ 21 - 1.4
+ 22 - 2.4
+ 23 - 3.4
+ 24 - P.4
+ 25 - a.4
+ 26 - b.4
+ 27 - c.4
+ 28 - 1.5
+ 29 - 2.5
+ 30 - 3.5
+ 31 - P.5
+ 32 - a.5
+ 33 - b.5
+ 34 - c.5
+ 35 - 1.6
+ 36 - 2.6
+ 37 - 3.6
+ 38 - P.6
+ 39 - a.6
+ 40 - b.6
+ 41 - c.6
+ 42 - 1.7
+ 43 - 2.7
+ 44 - 3.7
+ 45 - P.7
+ 46 - a.7
+ 47 - b.7
+ 48 - c.7
+ 49 - 1.8
+ 50 - 2.8
+ 51 - 3.8
+ 52 - P.8
+ 53 - a.8
+ 54 - b.8
+ 55 - c.8
+ 56 - k+1
+

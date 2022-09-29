@@ -1,0 +1,112 @@
+Sieç:
+Stacja benzynowa z dwoma dystrybutorami (C) Z.Suraj, B.Komarek "Graf..." s.130
+
+Krotnoûç proces¢w: 2
+
+Konfiguracja poczÜtkowa (6):
+AutoNaWjezdzie
+DystrybutorWolny.1
+DystrybutorWolny.2
+ObslugaStacji
+PostojDystrybutoraWolny.1
+PostojDystrybutoraWolny.2
+
+Zdarzenia (12):
+
+  1. Zdarzenie: OpuszczanieStacji
+     Prekondycja  (1): AutoNaWyjezdzie 
+     Postkondycja (1): null 
+
+  2. Zdarzenie: Placenie.1
+     Prekondycja  (2): AutoZatankowane.1 ObslugaStacji 
+     Postkondycja (2): AutoObsluzone.1 Zaplacone.1 
+
+  3. Zdarzenie: Placenie.2
+     Prekondycja  (2): AutoZatankowane.2 ObslugaStacji 
+     Postkondycja (2): AutoObsluzone.2 Zaplacone.2 
+
+  4. Zdarzenie: TankowanieAuta.1
+     Prekondycja  (2): DystrybutorWolny.1 TankujaceAuto.1 
+     Postkondycja (1): AutoZatankowane.1 
+
+  5. Zdarzenie: TankowanieAuta.2
+     Prekondycja  (2): DystrybutorWolny.2 TankujaceAuto.2 
+     Postkondycja (1): AutoZatankowane.2 
+
+  6. Zdarzenie: WjazdNaDystrybutor.1
+     Prekondycja  (2): AutoNaWjezdzie PostojDystrybutoraWolny.1 
+     Postkondycja (1): TankujaceAuto.1 
+
+  7. Zdarzenie: WjazdNaDystrybutor.2
+     Prekondycja  (2): AutoNaWjezdzie PostojDystrybutoraWolny.2 
+     Postkondycja (1): TankujaceAuto.2 
+
+  8. Zdarzenie: WjazdNaStacjeBenzynowa
+     Prekondycja  (1): gen() 
+     Postkondycja (1): AutoNaWjezdzie 
+
+  9. Zdarzenie: WyjazdZDystrybutora.1
+     Prekondycja  (1): AutoObsluzone.1 
+     Postkondycja (2): AutoNaWyjezdzie PostojDystrybutoraWolny.1 
+
+ 10. Zdarzenie: WyjazdZDystrybutora.2
+     Prekondycja  (1): AutoObsluzone.2 
+     Postkondycja (2): AutoNaWyjezdzie PostojDystrybutoraWolny.2 
+
+ 11. Zdarzenie: ZwalnianieDystrybutora.1
+     Prekondycja  (1): Zaplacone.1 
+     Postkondycja (2): DystrybutorWolny.1 ObslugaStacji 
+
+ 12. Zdarzenie: ZwalnianieDystrybutora.2
+     Prekondycja  (1): Zaplacone.2 
+     Postkondycja (2): DystrybutorWolny.2 ObslugaStacji 
+
+Procesy (4):
+
+  1. Proces: Auto.1
+     Akcje (6): OpuszczanieStacji Placenie.1 TankowanieAuta.1 WjazdNaDystrybutor.1 WjazdNaStacjeBenzynowa WyjazdZDystrybutora.1 
+
+  2. Proces: Auto.2
+     Akcje (6): OpuszczanieStacji Placenie.2 TankowanieAuta.2 WjazdNaDystrybutor.2 WjazdNaStacjeBenzynowa WyjazdZDystrybutora.2 
+
+  3. Proces: Dystrybutor.1
+     Akcje (3): Placenie.1 TankowanieAuta.1 ZwalnianieDystrybutora.1 
+
+  4. Proces: Dystrybutor.2
+     Akcje (3): Placenie.2 TankowanieAuta.2 ZwalnianieDystrybutora.2 
+
+Síownik (33):
+  0 - Auto.1
+  1 - Auto.2
+  2 - AutoNaWjezdzie
+  3 - AutoNaWyjezdzie
+  4 - AutoObsluzone.1
+  5 - AutoObsluzone.2
+  6 - AutoZatankowane.1
+  7 - AutoZatankowane.2
+  8 - Dystrybutor.1
+  9 - Dystrybutor.2
+ 10 - DystrybutorWolny.1
+ 11 - DystrybutorWolny.2
+ 12 - ObslugaStacji
+ 13 - OpuszczanieStacji
+ 14 - Placenie.1
+ 15 - Placenie.2
+ 16 - PostojDystrybutoraWolny.1
+ 17 - PostojDystrybutoraWolny.2
+ 18 - TankowanieAuta.1
+ 19 - TankowanieAuta.2
+ 20 - TankujaceAuto.1
+ 21 - TankujaceAuto.2
+ 22 - WjazdNaDystrybutor.1
+ 23 - WjazdNaDystrybutor.2
+ 24 - WjazdNaStacjeBenzynowa
+ 25 - WyjazdZDystrybutora.1
+ 26 - WyjazdZDystrybutora.2
+ 27 - Zaplacone.1
+ 28 - Zaplacone.2
+ 29 - ZwalnianieDystrybutora.1
+ 30 - ZwalnianieDystrybutora.2
+ 31 - gen()
+ 32 - null
+

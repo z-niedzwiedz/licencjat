@@ -1,0 +1,198 @@
+Sieç:
+Toy 4 
+
+Krotnoûç proces¢w: 6
+
+Konfiguracja poczÜtkowa (6):
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+
+Zdarzenia (25):
+
+  1. Zdarzenie: a.1
+     Prekondycja  (1): 1.1 
+     Postkondycja (1): 2.1 
+
+  2. Zdarzenie: ak+1.1
+     Prekondycja  (1): k+1.1 
+     Postkondycja (1): 2k+1.1 
+
+  3. Zdarzenie: b.1
+     Prekondycja  (1): 2.1 
+     Postkondycja (1): 3.1 
+
+  4. Zdarzenie: c.1
+     Prekondycja  (1): 3.1 
+     Postkondycja (1): k+1.1 
+
+  5. Zdarzenie: a.2
+     Prekondycja  (1): 1.2 
+     Postkondycja (1): 2.2 
+
+  6. Zdarzenie: ak+1.2
+     Prekondycja  (1): k+1.2 
+     Postkondycja (1): 2k+1.2 
+
+  7. Zdarzenie: b.2
+     Prekondycja  (1): 2.2 
+     Postkondycja (1): 3.2 
+
+  8. Zdarzenie: c.2
+     Prekondycja  (1): 3.2 
+     Postkondycja (1): k+1.2 
+
+  9. Zdarzenie: a.3
+     Prekondycja  (1): 1.3 
+     Postkondycja (1): 2.3 
+
+ 10. Zdarzenie: ak+1.3
+     Prekondycja  (1): k+1.3 
+     Postkondycja (1): 2k+1.3 
+
+ 11. Zdarzenie: b.3
+     Prekondycja  (1): 2.3 
+     Postkondycja (1): 3.3 
+
+ 12. Zdarzenie: c.3
+     Prekondycja  (1): 3.3 
+     Postkondycja (1): k+1.3 
+
+ 13. Zdarzenie: a.4
+     Prekondycja  (1): 1.4 
+     Postkondycja (1): 2.4 
+
+ 14. Zdarzenie: ak+1.4
+     Prekondycja  (1): k+1.4 
+     Postkondycja (1): 2k+1.4 
+
+ 15. Zdarzenie: b.4
+     Prekondycja  (1): 2.4 
+     Postkondycja (1): 3.4 
+
+ 16. Zdarzenie: c.4
+     Prekondycja  (1): 3.4 
+     Postkondycja (1): k+1.4 
+
+ 17. Zdarzenie: a.5
+     Prekondycja  (1): 1.5 
+     Postkondycja (1): 2.5 
+
+ 18. Zdarzenie: ak+1.5
+     Prekondycja  (1): k+1.5 
+     Postkondycja (1): 2k+1.5 
+
+ 19. Zdarzenie: b.5
+     Prekondycja  (1): 2.5 
+     Postkondycja (1): 3.5 
+
+ 20. Zdarzenie: c.5
+     Prekondycja  (1): 3.5 
+     Postkondycja (1): k+1.5 
+
+ 21. Zdarzenie: a.6
+     Prekondycja  (1): 1.6 
+     Postkondycja (1): 2.6 
+
+ 22. Zdarzenie: ak+1.6
+     Prekondycja  (1): k+1.6 
+     Postkondycja (1): 2k+1.6 
+
+ 23. Zdarzenie: b.6
+     Prekondycja  (1): 2.6 
+     Postkondycja (1): 3.6 
+
+ 24. Zdarzenie: c.6
+     Prekondycja  (1): 3.6 
+     Postkondycja (1): k+1.6 
+
+ 25. Zdarzenie: a2k+1
+     Prekondycja  (6): 2k+1.1 2k+1.2 2k+1.3 2k+1.4 2k+1.5 2k+1.6 
+     Postkondycja (6): 1.1 1.2 1.3 1.4 1.5 1.6 
+
+Procesy (6):
+
+  1. Proces: P.1
+     Akcje (5): a.1 ak+1.1 b.1 c.1 a2k+1 
+
+  2. Proces: P.2
+     Akcje (5): a.2 ak+1.2 b.2 c.2 a2k+1 
+
+  3. Proces: P.3
+     Akcje (5): a.3 ak+1.3 b.3 c.3 a2k+1 
+
+  4. Proces: P.4
+     Akcje (5): a.4 ak+1.4 b.4 c.4 a2k+1 
+
+  5. Proces: P.5
+     Akcje (5): a.5 ak+1.5 b.5 c.5 a2k+1 
+
+  6. Proces: P.6
+     Akcje (5): a.6 ak+1.6 b.6 c.6 a2k+1 
+
+Síownik (61):
+  0 - 1.1
+  1 - 2.1
+  2 - 2k+1.1
+  3 - 3.1
+  4 - P.1
+  5 - a.1
+  6 - ak+1.1
+  7 - b.1
+  8 - c.1
+  9 - k+1.1
+ 10 - 1.2
+ 11 - 2.2
+ 12 - 2k+1.2
+ 13 - 3.2
+ 14 - P.2
+ 15 - a.2
+ 16 - ak+1.2
+ 17 - b.2
+ 18 - c.2
+ 19 - k+1.2
+ 20 - 1.3
+ 21 - 2.3
+ 22 - 2k+1.3
+ 23 - 3.3
+ 24 - P.3
+ 25 - a.3
+ 26 - ak+1.3
+ 27 - b.3
+ 28 - c.3
+ 29 - k+1.3
+ 30 - 1.4
+ 31 - 2.4
+ 32 - 2k+1.4
+ 33 - 3.4
+ 34 - P.4
+ 35 - a.4
+ 36 - ak+1.4
+ 37 - b.4
+ 38 - c.4
+ 39 - k+1.4
+ 40 - 1.5
+ 41 - 2.5
+ 42 - 2k+1.5
+ 43 - 3.5
+ 44 - P.5
+ 45 - a.5
+ 46 - ak+1.5
+ 47 - b.5
+ 48 - c.5
+ 49 - k+1.5
+ 50 - 1.6
+ 51 - 2.6
+ 52 - 2k+1.6
+ 53 - 3.6
+ 54 - P.6
+ 55 - a.6
+ 56 - ak+1.6
+ 57 - b.6
+ 58 - c.6
+ 59 - k+1.6
+ 60 - a2k+1
+

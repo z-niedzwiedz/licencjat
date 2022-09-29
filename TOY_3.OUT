@@ -1,0 +1,108 @@
+Sieç:
+Toy 3 - global state space = 3^k states, after reduction 2k^2 states
+
+Krotnoûç proces¢w: 5
+
+Konfiguracja poczÜtkowa (5):
+1.1
+1.2
+1.3
+1.4
+1.5
+
+Zdarzenia (11):
+
+  1. Zdarzenie: a.1
+     Prekondycja  (1): 1.1 
+     Postkondycja (1): k+1.1 
+
+  2. Zdarzenie: ak+1.1
+     Prekondycja  (1): k+1.1 
+     Postkondycja (1): 2k+1.1 
+
+  3. Zdarzenie: a.2
+     Prekondycja  (1): 1.2 
+     Postkondycja (1): k+1.2 
+
+  4. Zdarzenie: ak+1.2
+     Prekondycja  (1): k+1.2 
+     Postkondycja (1): 2k+1.2 
+
+  5. Zdarzenie: a.3
+     Prekondycja  (1): 1.3 
+     Postkondycja (1): k+1.3 
+
+  6. Zdarzenie: ak+1.3
+     Prekondycja  (1): k+1.3 
+     Postkondycja (1): 2k+1.3 
+
+  7. Zdarzenie: a.4
+     Prekondycja  (1): 1.4 
+     Postkondycja (1): k+1.4 
+
+  8. Zdarzenie: ak+1.4
+     Prekondycja  (1): k+1.4 
+     Postkondycja (1): 2k+1.4 
+
+  9. Zdarzenie: a.5
+     Prekondycja  (1): 1.5 
+     Postkondycja (1): k+1.5 
+
+ 10. Zdarzenie: ak+1.5
+     Prekondycja  (1): k+1.5 
+     Postkondycja (1): 2k+1.5 
+
+ 11. Zdarzenie: a2k+1
+     Prekondycja  (5): 2k+1.1 2k+1.2 2k+1.3 2k+1.4 2k+1.5 
+     Postkondycja (5): 1.1 1.2 1.3 1.4 1.5 
+
+Procesy (5):
+
+  1. Proces: P.1
+     Akcje (3): a.1 ak+1.1 a2k+1 
+
+  2. Proces: P.2
+     Akcje (3): a.2 ak+1.2 a2k+1 
+
+  3. Proces: P.3
+     Akcje (3): a.3 ak+1.3 a2k+1 
+
+  4. Proces: P.4
+     Akcje (3): a.4 ak+1.4 a2k+1 
+
+  5. Proces: P.5
+     Akcje (3): a.5 ak+1.5 a2k+1 
+
+Síownik (31):
+  0 - 1.1
+  1 - 2k+1.1
+  2 - P.1
+  3 - a.1
+  4 - ak+1.1
+  5 - k+1.1
+  6 - 1.2
+  7 - 2k+1.2
+  8 - P.2
+  9 - a.2
+ 10 - ak+1.2
+ 11 - k+1.2
+ 12 - 1.3
+ 13 - 2k+1.3
+ 14 - P.3
+ 15 - a.3
+ 16 - ak+1.3
+ 17 - k+1.3
+ 18 - 1.4
+ 19 - 2k+1.4
+ 20 - P.4
+ 21 - a.4
+ 22 - ak+1.4
+ 23 - k+1.4
+ 24 - 1.5
+ 25 - 2k+1.5
+ 26 - P.5
+ 27 - a.5
+ 28 - ak+1.5
+ 29 - k+1.5
+ 30 - a2k+1
+

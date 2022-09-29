@@ -1,0 +1,84 @@
+Sieç:
+Net 01 - scaling version
+
+Krotnoûç proces¢w: 3
+
+Konfiguracja poczÜtkowa (4):
+1.1
+1.2
+1.3
+7
+
+Zdarzenia (9):
+
+  1. Zdarzenie: a.1
+     Prekondycja  (2): 1.1 7 
+     Postkondycja (1): 2.1 
+
+  2. Zdarzenie: a.2
+     Prekondycja  (2): 1.2 7 
+     Postkondycja (1): 2.2 
+
+  3. Zdarzenie: a.3
+     Prekondycja  (2): 1.3 7 
+     Postkondycja (1): 2.3 
+
+  4. Zdarzenie: b.1
+     Prekondycja  (1): 2.1 
+     Postkondycja (2): 3.1 7 
+
+  5. Zdarzenie: b.2
+     Prekondycja  (1): 2.2 
+     Postkondycja (2): 3.2 7 
+
+  6. Zdarzenie: b.3
+     Prekondycja  (1): 2.3 
+     Postkondycja (2): 3.3 7 
+
+  7. Zdarzenie: c.1
+     Prekondycja  (1): 3.1 
+     Postkondycja (1): 1.1 
+
+  8. Zdarzenie: c.2
+     Prekondycja  (1): 3.2 
+     Postkondycja (1): 1.2 
+
+  9. Zdarzenie: c.3
+     Prekondycja  (1): 3.3 
+     Postkondycja (1): 1.3 
+
+Procesy (3):
+
+  1. Proces: P.1
+     Akcje (3): a.1 b.1 c.1 
+
+  2. Proces: P.2
+     Akcje (3): a.2 b.2 c.2 
+
+  3. Proces: P.3
+     Akcje (3): a.3 b.3 c.3 
+
+Síownik (22):
+  0 - 1.1
+  1 - 1.2
+  2 - 1.3
+  3 - 2.1
+  4 - 2.2
+  5 - 2.3
+  6 - 3.1
+  7 - 3.2
+  8 - 3.3
+  9 - 7
+ 10 - P.1
+ 11 - P.2
+ 12 - P.3
+ 13 - a.1
+ 14 - a.2
+ 15 - a.3
+ 16 - b.1
+ 17 - b.2
+ 18 - b.3
+ 19 - c.1
+ 20 - c.2
+ 21 - c.3
+

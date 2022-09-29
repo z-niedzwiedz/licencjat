@@ -1,0 +1,109 @@
+Sieç:
+Round Based Mutual Exclusion (from Model... J.-M. Courvreur, D. Poitrenaud)
+
+Krotnoûç proces¢w: 2
+
+Konfiguracja poczÜtkowa (4):
+local.1
+local.2
+quiet.1
+quiet.2
+
+Zdarzenia (14):
+
+  1. Zdarzenie: act.1
+     Prekondycja  (2): pend.1 quiet.1 
+     Postkondycja (2): requested.1 sent.1 
+
+  2. Zdarzenie: act.2
+     Prekondycja  (2): pend.2 quiet.2 
+     Postkondycja (2): requested.2 sent.2 
+
+  3. Zdarzenie: apply.1
+     Prekondycja  (1): local.1 
+     Postkondycja (1): pend.1 
+
+  4. Zdarzenie: apply.2
+     Prekondycja  (1): local.2 
+     Postkondycja (1): pend.2 
+
+  5. Zdarzenie: crosstalk.1
+     Prekondycja  (2): requested.2 sent.1 
+     Postkondycja (2): crit.1 served.1 
+
+  6. Zdarzenie: crosstalk.2
+     Prekondycja  (2): requested.1 sent.2 
+     Postkondycja (2): crit.2 served.2 
+
+  7. Zdarzenie: echo.1
+     Prekondycja  (2): quiet.1 requested.2 
+     Postkondycja (2): granted.2 served.1 
+
+  8. Zdarzenie: echo.2
+     Prekondycja  (2): quiet.2 requested.1 
+     Postkondycja (2): granted.1 served.2 
+
+  9. Zdarzenie: enter.1
+     Prekondycja  (2): granted.1 sent.1 
+     Postkondycja (2): crit.1 quiet.1 
+
+ 10. Zdarzenie: enter.2
+     Prekondycja  (2): granted.2 sent.2 
+     Postkondycja (2): crit.2 quiet.2 
+
+ 11. Zdarzenie: release.1
+     Prekondycja  (1): crit.1 
+     Postkondycja (2): local.1 terminated.1 
+
+ 12. Zdarzenie: release.2
+     Prekondycja  (1): crit.2 
+     Postkondycja (2): local.2 terminated.2 
+
+ 13. Zdarzenie: return.1
+     Prekondycja  (2): served.1 terminated.2 
+     Postkondycja (1): quiet.1 
+
+ 14. Zdarzenie: return.2
+     Prekondycja  (2): served.2 terminated.1 
+     Postkondycja (1): quiet.2 
+
+Procesy (1):
+
+  1. Proces: P1
+     Akcje (14): act.1 act.2 apply.1 apply.2 crosstalk.1 crosstalk.2 echo.1 echo.2 enter.1 enter.2 release.1 release.2 return.1 return.2 
+
+Síownik (33):
+  0 - P1
+  1 - act.1
+  2 - act.2
+  3 - apply.1
+  4 - apply.2
+  5 - crit.1
+  6 - crit.2
+  7 - crosstalk.1
+  8 - crosstalk.2
+  9 - echo.1
+ 10 - echo.2
+ 11 - enter.1
+ 12 - enter.2
+ 13 - granted.1
+ 14 - granted.2
+ 15 - local.1
+ 16 - local.2
+ 17 - pend.1
+ 18 - pend.2
+ 19 - quiet.1
+ 20 - quiet.2
+ 21 - release.1
+ 22 - release.2
+ 23 - requested.1
+ 24 - requested.2
+ 25 - return.1
+ 26 - return.2
+ 27 - sent.1
+ 28 - sent.2
+ 29 - served.1
+ 30 - served.2
+ 31 - terminated.1
+ 32 - terminated.2
+

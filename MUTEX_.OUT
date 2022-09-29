@@ -1,0 +1,79 @@
+Sieç:
+Mutex (5 & 6 - critical section) - see Mutex_2
+
+Krotnoûç proces¢w: 1
+
+Konfiguracja poczÜtkowa (3):
+1
+2
+7
+
+Zdarzenia (8):
+
+  1. Zdarzenie: a
+     Prekondycja  (1): 1 
+     Postkondycja (1): 3 
+
+  2. Zdarzenie: b
+     Prekondycja  (2): 3 8 
+     Postkondycja (2): 10 5 
+
+  3. Zdarzenie: c
+     Prekondycja  (2): 10 5 
+     Postkondycja (2): 1 7 
+
+  4. Zdarzenie: d
+     Prekondycja  (1): 2 
+     Postkondycja (1): 4 
+
+  5. Zdarzenie: e
+     Prekondycja  (2): 4 9 
+     Postkondycja (2): 11 6 
+
+  6. Zdarzenie: f
+     Prekondycja  (2): 11 6 
+     Postkondycja (2): 2 7 
+
+  7. Zdarzenie: g
+     Prekondycja  (1): 7 
+     Postkondycja (1): 8 
+
+  8. Zdarzenie: h
+     Prekondycja  (1): 7 
+     Postkondycja (1): 9 
+
+Procesy (3):
+
+  1. Proces: P0
+     Akcje (6): b c e f g h 
+
+  2. Proces: P1
+     Akcje (3): a b c 
+
+  3. Proces: P2
+     Akcje (3): d e f 
+
+Síownik (22):
+  0 - 1
+  1 - 10
+  2 - 11
+  3 - 2
+  4 - 3
+  5 - 4
+  6 - 5
+  7 - 6
+  8 - 7
+  9 - 8
+ 10 - 9
+ 11 - P0
+ 12 - P1
+ 13 - P2
+ 14 - a
+ 15 - b
+ 16 - c
+ 17 - d
+ 18 - e
+ 19 - f
+ 20 - g
+ 21 - h
+
