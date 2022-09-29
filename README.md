@@ -1,6 +1,8 @@
 # licencjat
 Generowanie zredukowanych przestrzeni stanów zachowujących własności wyrażalne w DESL, 1998
 
+![Zrzut ekranu](https://raw.githubusercontent.com/z-niedzwiedz/licencjat/master/Zrzut_ekranu.png)
+
 KROTKI OPIS PROGRAMU (bez polskich liter - jak widac)
 
 1. Wymagania
